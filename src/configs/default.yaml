@@ -1,0 +1,29 @@
+# 训练集
+train: dataset/train.xml
+# 测试集
+valid: dataset/test.xml
+
+# 输出文件名
+output_name: ''
+
+# 目标检测参数
+object_detection:
+  symmetrical: False
+  C: 5
+  epsilon: 0.01
+  upsample_limit: 0
+  num_threads: 1
+  #   window_size: 10
+
+
+
+# 关键点定位参数
+shape_predictor:
+  num_threads: 1
+  tree_depth: 4
+  cascade_depth: 15
+  regularization: 0.1
+  oversampling: 10
+  feature_pool_size: 500
+  num_trees_per_cascade:  500
+  test_splits: 20
