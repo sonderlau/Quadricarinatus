@@ -1,0 +1,9 @@
+ML-Morph/
+papers/
+
+*.svm
+*.dat
+*.jpg
+
+.DS_Store
+.idea/
