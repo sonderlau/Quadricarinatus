@@ -1,9 +1,10 @@
 ML-Morph/
-papers/
-
+src/wandb/
 *.svm
 *.dat
 *.jpg
 
 .DS_Store
 .idea/
+
+__pycache__/
